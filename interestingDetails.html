@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="interestingDetails">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html" class="ui-btn-active ui-state-persist">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Interesting Details</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--Be sure to switch between data theme "c" and "d"-->
+				<!--Copy more from <ul *to* /ul> if more themes needed and change ^^^-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="d">Sinclair struggled to find a publisher for his novel, as many viewed it 
+					as too appalling and feared it would not sell well. Therefore Sinclair had to come up with the funds himself, 
+					and ultimately it turned out to be successful. </li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="c">Sinclair's novel was made into a movie soon after it was published; Sinclair even played a 
+					role as the orator of the movie. Currently there are no known versions of the movie, as all have been lost since then.</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="d">The novel had a profound affect in the meatpacking industry following its publishing. 
+					This was due in large part to the public outcry over the working conditions. It helped regulations and standards emerge. </li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Jungle</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

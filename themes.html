@@ -1,0 +1,61 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Life as an immigrant and the fake American dream</li>
+					<li data-theme="d">The family Sinclair uses to tell his story is a family of Lithuanian immigrants</li>
+					<li data-theme="c">They traveled to America do their belief that they would achieve the American dream, a dream where hard work and moral behavior would result in material success and supreme happiness</li>
+					<li data-theme="d">However once in America they are forced to work extremely difficult and unsatisfactory jobs for very low wages barely earning enough to get by</li>
+					<li data-theme="c">For many immigrants and Americans for that matter, the American dream is nothing more than a dream</li>
+					<li data-theme="d">The family discovers that to be successful in America, hard work and morals do not lead there, and that in fact corruption and crime are a much quicker way</li>
+					<li data-theme="c">The American dream has become a hollow idea of what it once was, as greed and excessive wealth has become the new American dream</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Socialism as a possible cure for the problems presented by capitalism</li>
+					<li data-theme="d">Sinclair has a very negative view of capitalism, and he emphasizes it at the beginning of nearly every chapter</li>
+					<li data-theme="c">He views it as immoral, unjust, and even violent</li>
+					<li data-theme="d">The immigrants who traveled to America with dreams of success, are used up in this capitalistic society, nearly nothing more than slaves</li>
+					<li data-theme="c">The labor they partake in is brutal, and threatens their life and the well being of their families</li>
+					<li data-theme="d">Sinclair uses the protagonist of the story to express his belief that socialism is in fact the cure for the problems of capitalism</li>
+					<li data-theme="c">Sinclair spends much of the novel contrasting capitalism's flaws with socialism's strengths and urging readers that adopting a socialistic society would benefit all as opposed to benefiting few like capitalism does</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Jungle</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
